@@ -1,0 +1,42 @@
+#all {
+    background-color: white;
+    width: 35%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+fieldset {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    text-align: left;
+}
+legend{
+    color: blue;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+
+}
+
+#form2 {
+    background-color:rgba(194, 212, 221, 0.307);
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+#form1, #form3, #form4 {
+    background-color:rgba(194, 212, 221, 0.307);
+    align-items: center;
+    text-align: center;
+}
+
+#sub {
+    margin-top: 30px;
+}

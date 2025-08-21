@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body style="background-color: rgb(239, 235, 235); align-items: center; text-align: center;">
+    <div id="all">
+        <h1><u>Job Application Form</u></h1><br>
+        
+        <form action="thank.html" method="post">
+            <fieldset id="form1">
+                <legend><h2>Personal Details</h2></legend>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your first name"><br>
+                <label for="Lname">Last Name:</label><br>
+                <input type="text" id="Lname" name="lasttname" placeholder="Enter your last name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+                <label for="phone">Phone:</label><br>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+            </fieldset>
+
+            <fieldset id="form2">
+                <legend><h2>Job Details</h2></legend>
+                <label for="jobtitle">Job Title:</label><br>
+                <input type="text" id="jobtitle" name="jobtitle" placeholder="Enter your job title"><br>
+                <label for="jobdescription">Job Description:</label><br>
+                <input type="text" id="jobdescription" name="jobdescription" placeholder="Enter your job description"><br>
+                <label for="joblocation">Job Location:</label><br>
+                <input type="text" id="joblocation" name="joblocation" placeholder="Enter your job location"><br>
+            </fieldset>
+
+            <fieldset id="form3">
+                <legend><h2>Additional Details</h2></legend>
+                <label for="resume">Resume:</label><br>
+                <input type="file" id="resume" name="resume"><br>
+                <label for="coverletter">Cover Letter:</label><br>
+                <input type="file" id="coverletter" name="coverletter"><br>
+            </fieldset>
+            <fieldset id="form4">
+                <legend><h2>References</h2></legend>
+                <label for="ref1">Reference 1:</label><br>
+                <input type="text" id="ref1" name="ref1" placeholder="Enter your reference 1"><br>
+                <label for="ref2">Reference 2:</label><br>
+                <input type="text" id="ref2" name="ref2" placeholder="Enter your reference 2"><br>
+            </fieldset>
+            
+            <div id="sub">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
